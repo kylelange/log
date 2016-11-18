@@ -82,7 +82,7 @@ body {
 /*Current logs div with featured log and log-tiles*/
 
 .current-logs {
-  width: 80%;
+  width: 100%;
   margin-left: 15px;
   position: relative;
   /*display: inline-block;*/
@@ -103,6 +103,7 @@ body {
   height: auto;
   text-align: center;
   margin-top: 70px;
+  float: left;
 }
 
 .featured-log:hover {
@@ -173,8 +174,10 @@ body {
 
 /*log tiles inline block or flexed*/
 
-.log-tiles-flexed {
+.log-tiles {
   display: inline-block;
+  margin-top: 102px;
+  max-width: 700px;
 }
 
 .log-tileA {
@@ -183,6 +186,9 @@ body {
   background-color: #fffff0;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
   text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .log-tileA:hover {
@@ -216,6 +222,50 @@ body {
   background-color: #161687;
   color: #fffff0;
   transform: scale(1.10) rotate(-5deg);
+}
+
+.log-tileB {
+  height: 200px;
+  width: 200px;
+  background-color: #fffff0;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+  text-align: center;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.log-tileB:hover {
+  transform: rotate(-3deg);
+}
+
+
+.log-tileB h2 {
+  color: #000B02;
+  margin: 0;
+  font-size: 2em;
+}
+
+.log-tileB img {
+  height: 120px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.log-tileB button {
+  color: #161687;
+  background-color: #fffff0;
+  padding: 0 10px 0 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 3px solid #161687;
+  font-size: 1em;
+}
+
+.log-tileB button:hover {
+  background-color: #161687;
+  color: #fffff0;
+  transform: scale(1.10) rotate(5deg);
 }
 
 
