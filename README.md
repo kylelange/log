@@ -1,4 +1,4 @@
-# _Top 8_
+# _LOG_
 
 #### _Week 1 CSS code review (advertising LOGS!) showing pseudo elements/classes, absolute/relative positioning, and floats {Nov 18th, 2016}_
 

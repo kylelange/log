@@ -35,6 +35,13 @@ body {
   position:relative;
 }
 
+.hero-photo h2 {
+  position: absolute;
+  top: 284px;
+  left: 241px;
+  font-size: 6em;
+}
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -47,7 +54,7 @@ body {
 .navbar h1 {
   position: fixed;
   left: 30px;
-  font-size: 3em;
+  font-size: 3.2em;
   margin-top: 0px;
 }
 
