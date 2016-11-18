@@ -80,6 +80,7 @@ body {
 .current-logs {
   width: 80%;
   margin-left: 15px;
+  position: relative;
 }
 
 .current-logs h1 {
@@ -97,10 +98,21 @@ body {
   width: 500px;
   height: auto;
   text-align: center;
+  margin-top: 70px;
 }
 
 .featured-log:hover {
   transform: rotate(3deg);
+}
+
+.featured-log::before {
+  content: url('../img/pin.png');
+  position:absolute;
+  z-index: 1;
+  transform: scale(.25);
+  filter: hue-rotate(210deg);
+  margin-top: -165px;
+  margin-left: -160px;
 }
 
 .featured-log h2 {
