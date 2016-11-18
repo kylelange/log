@@ -84,6 +84,7 @@ body {
 .current-logs {
   width: 100%;
   margin-left: 15px;
+  padding-bottom: 100px;
   position: relative;
   /*display: inline-block;*/
 }
@@ -102,7 +103,7 @@ body {
   width: 500px;
   height: auto;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
   float: left;
 }
 
@@ -176,7 +177,7 @@ body {
 
 .log-tiles {
   display: inline-block;
-  margin-top: 102px;
+  margin-top: 92px;
   max-width: 700px;
 }
 
@@ -268,6 +269,34 @@ body {
   transform: scale(1.10) rotate(5deg);
 }
 
+/*Footer div with song lyrics and deals form*/
+
+.footer {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  background-color: #fffff0;
+}
+
+.song {
+  padding: 20px 0 0 20px;
+}
+
+.song h2 {
+  color: #000B02;
+  font-size: 2em;
+}
+
+.song p {
+  color: #000B02;
+  font-size: 2em;
+  max-width: 560px;
+}
+
+.form1 h2,label,input {
+  color: #000B02;
+  font-size: 2em;
+}
 
 /*Id Selectors***********************/
 
